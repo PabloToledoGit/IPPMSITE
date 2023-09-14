@@ -49,6 +49,8 @@ table {
   --cor-fundo:#ffffff;
   --cor-letra:#ffffff;
   --cor-fundo-secundaria:#000000;
+
+  --font-titulo: 'Maven Pro', sans-serif;
 }
 
 body{
