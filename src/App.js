@@ -14,7 +14,6 @@ function App() {
           <Menu menu="Live" links="https://ippm.vercel.app/" />
         </div>
       </div>
-      <Titulo titulo="Profetizando Milagres" />
     </div>
   );
 }
