@@ -8,8 +8,7 @@ function Descricao() {
       <div class="corpo__div">
         <div class="corpo__div__div">
           <h1 class="corpo__div__div__titulo typewriter titulo1">
-            Olá, seja
-            <strong class="corpo__div__div__front">Bem-Vindo</strong>
+            Olá, seja <strong class="corpo__div__div__front">Bem Vindo</strong>
           </h1>
           <span class="corpo__div__div__paragrafo">
             A igreja pentecostal profetizando milagres
@@ -18,11 +17,11 @@ function Descricao() {
             class="corpo__div__div__botao btn btn3"
             href="https://www.instagram.com/diipablo/"
           >
-            Fale Conosco!!
+            Fale conosco
           </a>
         </div>
         <img
-          class="corpo__div__imagem"
+          class="corpo__div__imagem img-fluid"
           src={igreja}
           alt="foto da igreja"
         />

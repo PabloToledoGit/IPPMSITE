@@ -6,7 +6,7 @@ import Descricao from "./components/Descricao";
 function App() {
   return (
     <div className="App">
-      <div className="d-flex bg-dark justify-content-between">
+      <div className="d-flex bg-dark justify-content-around">
         <Titulo titulo="Profetizando Milagres" />
         <div className="divlinks">
           <Menu menu="Inicio" links="https://ippmsite.vercel.app" />

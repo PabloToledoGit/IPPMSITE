@@ -7,15 +7,10 @@
 
 .corpo__div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  margin-top: 2em;
-  margin-bottom: 10em;
-}
-
-.corpo__div__imagem {
-  border-radius: 50%;
-  width: 25rem;
+  margin-top: 3em;
+  margin-bottom: 8em;
 }
 
 .corpo__div__div {
@@ -53,6 +48,10 @@
   border-radius: 0.5em;
 }
 
+.corpo__div__div__front {
+  color: var(--color-yellow);
+  font-weight: 700;
+}
 /*hover botao -----------------------------------------------------------------*/
 
 .btn::before {
@@ -77,9 +76,7 @@
 
 /*-----------------------------------------------------------------------------*/
 
-.corpo__div__div__front {
-  color: var(--color-yellow);
-}
+
 
 .projetos {
   display: flex;
@@ -87,12 +84,7 @@
   justify-content: space-evenly;
 }
 
-.projetos__div__titulo {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  margin-bottom: 5em;
-}
+
 
 .projetos__titulo {
   display: flex;
