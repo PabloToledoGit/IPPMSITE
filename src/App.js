@@ -1,7 +1,7 @@
 import "./App.css";
 import Titulo from "./components/Titulo";
 import Menu from "./components/Link";
-import Carrossel from "./components/Slide";
+import Descricao from "./components/Descricao";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Menu menu="Live" links="https://ippm.vercel.app/" />
         </div>
       </div>
-      <Carrossel />
+      <Descricao />
     </div>
   );
 }
